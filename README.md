@@ -7,10 +7,11 @@ Automated commenting on <a href="https://www.reddit.com" alt="Reddit">Reddit</a>
 <li> Posts comment on current reposted thread </li>
 <li> Sends user an email about the comment </li>
 </ol>
-##Comment Example
+###Example 1
 <img src="Example1.png" alt="Example1">
+###Example 2
 <img src="Example2.png" alt="Example2">
-<br> Just after I deleted the bot: <br>
+###Example 3 - Just after I deleted the bot
 <img src="Example3.png" alt="Example3">
 
 ##Why???

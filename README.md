@@ -1,7 +1,7 @@
 #IRedditBefore
-Automated commenting on <a href="https://www.reddit.com" alt="Reddit">Reddit</a> reposted threads using <a href="http://karmadecay.com/" alt="Karma Decay">Karma Decay</a>. The bot process works as follows: <br>
+Automated commenting on <a href="https://www.reddit.com" alt="Reddit">Reddit</a> reposted threads using <a href="http://karmadecay.com/" alt="Karma Decay">Karma Decay</a>.<br>The bot process works as follows: <br>
 <ol>
-<li> Looks for risinng reposted links on Reddit (<a href="https://www.reddit.com/r/funny/" alt="r/funny">r/funny</a>) </li>
+<li> Looks for rising reposted links on Reddit (<a href="https://www.reddit.com/r/funny/" alt="r/funny">r/funny</a>) </li>
 <li> Aquires all source/reposted threads of that submission </li>
 <li> Takes the top thread and copys the top comment </li>
 <li> Posts comment on current reposted thread </li>

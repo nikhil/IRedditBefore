@@ -11,21 +11,21 @@ Automated commenting on <a href="https://www.reddit.com" alt="Reddit">Reddit</a>
 <img src="Example1.png" alt="Example1">
 ####Example 2
 <img src="Example2.png" alt="Example2">
-####Example 3 - Just after I deleted the bot
+####Example 3 
+Just after I deleted the bot
+<hr>
 <img src="Example3.png" alt="Example3">
 
-##Why???
+###Why???
 This was primarily an experimental project. I wanted to see how Reddit would react to reposted comments. The bot recieved 25k comment karma in 3 days. After 3 days I deleted the bot. 
 
-##Email Example
+###Email Example
 <img src="Email.png" alt="Email">
 
-##Working with Karma Decay
+###Working with Karma Decay
 I used kdapi as the base for my Karma Decay script. I fixed many issues with the webpage parsing. Karma Decay also blocked many US AWS ips, so I used a proxy.
 
-##Resources Used
+###Resources Used
 - <a href="https://github.com/ethanhjennings/karmadecay-api" alt="kdapi">kdapi</a>
 - <a href="https://github.com/SmBe19/praw-OAuth2Util" alt="praw-OAuth2Util">praw-OAuth2Util</a>
 - <a href="https://www.openshift.com/" alt="openshift">openshift</a>
-
-  

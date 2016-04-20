@@ -1,0 +1,2 @@
+edit,identity,mysubreddits,privatemessages,read,submit,subscribe,vote
+True

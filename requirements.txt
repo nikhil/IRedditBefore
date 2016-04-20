@@ -1,0 +1,5 @@
+requests>=2.5.1
+pymongo>=2.7
+lxml>=3.4.4
+praw>=3.0.0
+sendgrid>=1.4.0 

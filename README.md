@@ -7,15 +7,15 @@ Automated commenting on <a href="https://www.reddit.com" alt="Reddit">Reddit</a>
 <li> Posts comment on current reposted thread </li>
 <li> Sends user an email about the comment </li>
 </ol>
-###Example 1
+####Example 1
 <img src="Example1.png" alt="Example1">
-###Example 2
+####Example 2
 <img src="Example2.png" alt="Example2">
-###Example 3 - Just after I deleted the bot
+####Example 3 - Just after I deleted the bot
 <img src="Example3.png" alt="Example3">
 
 ##Why???
-THis was primarily an experimental project. I wanted to see how Reddit would react to reposted comments. The bot recieved 25k comment karma in 3 days. After 3 days I deleted the bot. 
+This was primarily an experimental project. I wanted to see how Reddit would react to reposted comments. The bot recieved 25k comment karma in 3 days. After 3 days I deleted the bot. 
 
 ##Email Example
 <img src="Email.png" alt="Email">

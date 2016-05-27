@@ -25,7 +25,7 @@ This was primarily an experimental project. I wanted to see how Reddit would rea
 ###Working with Karma Decay
 I used kdapi as the base for my Karma Decay script. I fixed many issues with the webpage parsing. Karma Decay also blocked many US AWS ips, so I used a proxy.
 
-###How to use this without Openshift?
+###How do I use this without Openshift?
 I have a cron script in .openshift/cron/minutely called CheckMyList. You need to set up a cron so that Zoidberg333.py runs every minute. You can rename the script to your reddit username.You will also need to setup a mongodb server. Then whenever you see "os.environ['OPENSHIFT_MONGODB_DB_URL']" you need to enter the url to your mongodb server. Also you will need to setup your account for Oauthentication. You would need to modify oauthappinfo.txt. The guide to oauth2 is <a href="here:https://github.com/reddit/reddit/wiki/OAuth2" alt="OAuth2">here</a>. Basically you need two values the application id which is the hash just below the script title and the secret which is in the field labeled secret. Applicaiton id goes on the first line and secret goes on the second line. It should ask you to authenticate the first time you run Zoidberg333.py.You also need sendgrid for the emails, but you can comment lines 146-158 if you want to. 
 
 ###Resources Used

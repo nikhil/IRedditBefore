@@ -149,12 +149,12 @@ def Main():
         message = sendgrid.Mail()
         message.add_filter('templates', 'enable', '1')
         message.add_filter('templates', 'template_id', 'YourTemplateID')
-        message.add_to('Nikhil Kumar <nikhilkumar516@gmail.com>')
+        message.add_to('Your Name <Your Email>')
         message.set_subject('Zoidberg333 made a comment')
-        MessageHtmlStr = 'Dear Nikhil, <br> Zoidberg333 has just made a post: <br>' + TopComment + '<br> Here is a link to the thread: <br>' + ThreadLink + '<br> Here is the link to the reference: <br>' + RefLink
+        MessageHtmlStr = 'Dear Your Name, <br> Zoidberg333 has just made a post: <br>' + TopComment + '<br> Here is a link to the thread: <br>' + ThreadLink + '<br> Here is the link to the reference: <br>' + RefLink
         message.set_html(MessageHtmlStr)
         message.set_text('')
-        message.set_from('RedditBotWatch <BotWatch@kumarcode.com>')
+        message.set_from('RedditBotWatch <BotWatch@Your Domain>')
         status, msg = sg.send(message)
         
         
